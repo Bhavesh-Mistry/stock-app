@@ -1,0 +1,265 @@
+@media (max-width:1600px){
+  	/*btn*/
+	.btn.sm {min-width: 35px; min-height: 28px; font-size: 16px; line-height: 16px; }
+  
+	/*search-sec*/
+	.search-sec .ss-text {right: 15px; }
+
+	/*ss-list-sec*/
+	.ss-list-sec .ss-list {margin: 0px 13px; }
+	.ss-list-sec .ss-list .ssl-action-bx .btn {margin: 0 2px; }
+	.ss-list-sec .ss-list .ssl-action-bx {right: 5px; padding: 5px 0; }
+
+  	/*dashboard-sec*/
+  	.dashboard-sec .card {padding: 12px 15px;}
+  	.dashboard-sec .ds-left .card {padding: 12px 15px 20px;}
+  	.dashboard-sec .ds-left .imgGraph img {height: 180px; }
+	.dashboard-sec .ds-right .search-sec .icon {left: 19px;}
+  	.dashboard-sec .ds-right .search-sec .form-control {padding: 10px 60px 10px 45px;}
+
+  	/*holdings-sec*/
+  	.holdings-sec.dashboard-sec .holding-card .cItem h6 {margin: 0 10px 0 10px; }
+  	.holdings-sec.dashboard-sec .holding-card .hc-action-sec .lnkBlue{margin-left: 12px;}
+
+  	/*my-pro-sec*/
+  	.my-pro-sec .card .mp-body.mph-small {min-height: 177px; }
+
+  	/*add-funds-sec*/
+  	.add-funds-sec .form-group .form-control{font-size: 20px;}
+  	.add-funds-sec .form-group .custom-control.custom-radio .custom-control-label {font-size: 18px; }
+  	.add-funds-sec .form-group .custom-control.custom-radio .custom-control-label .badge {font-size: 14px; padding: 2px 10px; margin: 0 0 0 15px;}
+
+}
+
+@media (max-width:1500px){
+	/*btn*/
+	.btn.md {font-size: 14px; line-height: 22px; }
+
+	/*dashboard-sec*/
+	.dashboard-sec .ds-left .cItem h5 {font-size: 14px; line-height: 18px;}
+	.dashboard-sec .ds-left .cItem .ci-list h4 {font-size: 25px; line-height: 42px; }
+	.dashboard-sec .ds-left .cItem .ci-list p {font-size: 13px; line-height: 20px; }
+	.dashboard-sec .ds-left .cItem .ci-list,.dashboard-sec .ds-left .pl-15 {padding: 0 15px 0 0; }
+	.dashboard-sec .ds-left .ci-you p {font-size: 13px; line-height: 20px; margin: 10px 0 15px;}
+	.dashboard-sec .ds-left .ci-you .btn.btnOpenacc {min-width: 170px; }
+
+}
+
+@media (max-width:1440px){
+	/*sidebar*/
+	.sidebar {min-width: 120px; max-width: 120px; text-align: center; margin-left: 0px !important;  }
+	.sidebar.active { margin-left: -120px !important;}
+	.sidebar .sidebar-header {padding: 20px 10px;}
+	.sidebar.active .sidebar-header .logo .imgBig,.sidebar .sidebar-header .logo .imgBig{display: none;}
+	.sidebar.active .sidebar-header .logo .imgSmall,.sidebar .sidebar-header .logo .imgSmall{display: block;margin: 0 auto;}
+	.sidebar ul li {padding: 11px 10px; }
+	.sidebar ul li a {padding: 10px; justify-content: center; font-size: 0; }
+	.sidebar ul li a span {margin: 0; }
+
+	/*form-group*/
+	.form-group{margin: 0 0 35px}
+
+	/*form-control*/
+	.form-control{font-size: 20px; line-height: 30px;}
+
+	/*label*/
+	.label {font-size: 20px; line-height: 30px; }
+
+	/**login-sec**/
+	.login-sec .ls-right .lsr-box {width: 70%; }
+	.login-sec .ls-right .lsr-box h3 {font-size: 45px; line-height: 55px; margin: 0 0 35px; }
+	.login-sec .ls-right .lsr-box .btnSubmit,.login-sec .ls-right .lsr-box .btnReset {margin: 40px 0; }
+
+	.login-sec .ls-left .df-left {width: 420px; height: 300px; padding: 30px;}
+	.login-sec .ls-left .df-left h4 {font-size: 40px; line-height: 55px;}
+	.login-sec .ls-left .df-left p {font-size: 20px; line-height: 26px; }
+
+	.login-sec .add-funds-sec .form-group {margin: 0 0 30px; }
+	.login-sec .add-funds-sec .form-group .radio-sec {margin: 10px 0 40px; }
+	.login-sec .add-funds-sec p {padding: 30px 0 0; margin: 30px 0 0; }
+
+
+}
+
+@media (max-width:1280px){
+
+	/*dashboard-sec*/
+	.dashboard-sec .ds-left .imgGraph img { height: 155px;}
+
+	/*holdings-sec*/
+	.holdings-sec.dashboard-sec .card.holding-card .cItem {flex-wrap: wrap; justify-content: center !important; }
+	.holdings-sec.dashboard-sec .card.holding-card .cItem .hc-action-sec {margin: 20px 0 10px;}
+
+	/*funds-sec*/
+	div.funds-sec .card .cItem {padding: 22px 15px 30px !important}
+	div.funds-sec .card.holding-card .cItem {flex-wrap: nowrap !important; justify-content: space-between !important; }
+	div.funds-sec .card.holding-card .cItem .hc-action-sec {margin: 0px !important;}
+
+	/*add-funds-sec*/
+	.add-funds-sec p{margin-bottom: 45px}
+}
+
+@media (max-width: 1199px) {
+
+	/*login-sec*/
+	.login-sec {height: auto;}
+	.login-sec .ls-left,	.login-sec .ls-right {width: 100%;min-height: 70vh;}
+	.login-sec .ls-right{padding: 60px 30px;}
+	.login-sec .ls-right .lsr-box {width: 60%; }
+
+	/*dashboard-sec*/
+	.dashboard-sec .ds-left .imgGraph img {height: 185px; }
+	.dashboard-sec .ds-right .sls-actions {margin: 50px 0 0; }
+
+	/*holdings-sec*/
+	.holdings-sec.dashboard-sec .card.holding-card .cItem {justify-content: space-between !important; }
+	.holdings-sec.dashboard-sec .card.holding-card .cItem .hc-action-sec {margin: 0px;}
+
+	/*df-login-sec*/
+	.df-login-sec.login-sec .ls-left, .login-sec .ls-right {position: absolute; height: 100vh; min-height: inherit; top: 0; left: 0; bottom: 0; right: 0;}
+	.df-login-sec.login-sec .ls-left .df-left {top:30px; }
+	.df-login-sec.login-sec .ls-right {height: 100vh !important;overflow-y: auto;}
+	.df-login-sec.login-sec .add-funds-sec {max-width: 70%; background: #fff; padding: 60px; border: 1px solid #ddd; box-shadow: -1px 6px 28px 0 rgba(193, 231, 250, .5); }
+
+
+}
+
+@media (max-width: 991px) {
+	/*header*/
+	header.navbar .search-sec {width: 45%; }
+
+	/*dropdown*/
+	.dropdown .dropdown-menu {position: absolute; }
+
+  	/*dashboard-sec*/
+	.dashboard-sec .ds-left .pl-15 {padding: 0 15px; }
+	.dashboard-sec .ds-left .cItem {margin: 0 0 30px; }
+	.dashboard-sec .ds-left .ci-you p {text-align: center !important; }
+
+	/*holdings-sec*/
+	.holdings-sec.dashboard-sec .card.holding-card .cItem {flex-wrap: wrap; justify-content: center !important; }
+	.holdings-sec.dashboard-sec .card.holding-card .cItem .hc-action-sec {margin: 20px 0 10px;}
+	.holdings-sec.dashboard-sec .holding-card .table-responsive{max-width: 585px;}
+	.holdings-sec.dashboard-sec .funds-sec .card.holding-card .cItem,
+	.holdings-sec.dashboard-sec .my-pro-sec .card.holding-card .cItem{justify-content: space-between !important;}
+	.holdings-sec.dashboard-sec .my-pro-sec .card.holding-card .cItem .hc-action-sec {margin: 0;}
+
+	/*funds-top*/
+	.funds-top .btn {margin-left: 10px;min-width: 130px; }
+
+	/*my-pro-sec*/
+	.my-pro-sec .card .mp-body,.my-pro-sec .card .mp-body.mph-small {min-height: inherit;}
+
+	/*add-funds-sec*/
+	.add-funds-sec .form-group .custom-control.custom-radio {margin-right: 30px !important;}
+	.add-funds-sec .btn.btnFContinue {min-height: 60px; font-size: 20px; line-height: 37px; }
+
+	/*df-login-sec*/
+	.df-login-sec.login-sec .add-funds-sec {max-width: 80%; padding: 45px 40px 35px; }
+	.df-login-sec.login-sec .add-funds-sec .df-left{position: inherit; padding: 0; background: transparent; height: auto; width: auto; box-shadow: none; }
+	.df-login-sec.login-sec .df-left h4 {font-size: 35px; line-height: 45px;}
+	.df-login-sec.login-sec .add-funds-sec .df-left p{margin: 0 0 40px;padding: 0;border:0;}
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+	.wrapper{overflow-x: hidden;}
+
+	.alert{line-height: 20px;}
+
+	/*sidebar*/
+	.sidebar {margin-left: -120px !important;  }
+   	.sidebar.active { margin-left: 0px !important;}
+
+	/*btn*/
+	.btn {min-height: 56px;font-size: 20px; line-height: 30px; border-radius: 56px; }
+
+	/*form-group*/
+	.form-group {margin: 0 0 30px; }
+
+	/*form-control*/
+	.form-control {font-size: 18px; line-height: 24px; }
+
+	/*label*/
+	.label {font-size: 16px; line-height: 22px; }
+
+	/*checkbox*/
+	.custom-control .custom-control-label {font-size: 18px; }
+
+	/*links*/
+	.lnkRed {font-size: 18px; line-height: 24px; }
+
+
+	/*login-sec*/
+	.login-sec .ls-left, .login-sec .ls-right {min-height: auto; }
+	.login-sec .ls-right .lsr-box {width: 100%; }
+	.login-sec .ls-right .lsr-box h3 {font-size: 40px; line-height: 45px; }
+	.login-sec .ls-right .lsr-box .lnkRed {margin: 30px 0 0 auto;}
+	.login-sec .ls-right .lsr-box .btnSubmit,.login-sec .ls-right .lsr-box .btnReset {margin: 30px 0; }
+	.login-sec .ls-right .lsr-box p.txtPara {font-size: 18px; line-height: 24px; padding-top: 25px; }
+
+	/*df-login-sec*/
+	.df-login-sec.login-sec .ls-right {padding: 20px 20px; }
+	.df-login-sec.login-sec .add-funds-sec {max-width: 100%; padding: 25px; }
+
+	/*btnTogglesidebar*/
+	.btnTogglesidebar {margin-right: 20px;}
+
+	/*header*/
+	header.navbar {padding: 16px 15px;}
+	header.navbar .search-sec {width: 50%; }
+
+	/*content*/
+	.content-body {padding: 30px 15px; }
+
+	/*dashboard-sec*/
+	.dashboard-sec .ds-left .card {padding: 15px 15px 20px; }
+	.dashboard-sec .ds-left .cItem .ci-list {padding: 0 0 0px;border-bottom: 0px;margin: 0 0 0px;border-right: 0;}
+	.dashboard-sec .ds-left .cItem .ci-list.cil-eq{padding-bottom: 20px;margin-bottom: 20px;border-bottom: 1px solid #DBE5E5;}
+
+	/*holdings-sec*/
+	.holdings-sec.dashboard-sec .card.holding-card .cItem .citem-left{justify-content: space-between !important; width: 100%; }
+	.holdings-sec.dashboard-sec .holding-card .hc-action-sec .search-sec {max-width: 100%; width: 100%; margin: 0 0 15px; }
+	.holdings-sec.dashboard-sec .holding-card .holding-values{text-align: center;}
+	.holdings-sec.dashboard-sec .ds-left .radio-sec .custom-control.custom-radio {margin-bottom: 20px}
+	.holdings-sec.dashboard-sec .holding-card .hc-action-sec .lnkBlue {margin-left: 0; }
+
+	/*funds-top*/
+	.funds-top .btn {margin: 15px 1% 0; min-width: 48%; }
+	div.funds-sec .card.holding-card .cItem{flex-wrap: wrap !important;}
+	.holdings-sec.dashboard-sec .funds-sec .card.holding-card .cItem .hc-action-sec{width: 100%; margin: 15px 0 0 !important;}
+	.holdings-sec.dashboard-sec .funds-sec .holding-card .hc-action-sec .lnkBlue{margin-left: 15px;}
+	.holdings-sec.dashboard-sec .my-pro-sec .card.holding-card .cItem .citem-left{width: 50%;}
+
+	/*my-pro-sec*/
+	.my-pro-sec .my-pro-name h4{margin: 30px 0 0;text-align: center;}
+	.my-pro-sec .custom-control.custom-radio.mr-5{margin-right: 25px !important;}
+
+	/*add-funds-sec*/
+	.add-funds-sec h3 {font-size: 35px; line-height: 55px; margin: 0 0 10px; }
+	.add-funds-sec h5, .add-funds-sec h6 {font-size: 20px; line-height: 30px; }
+	.add-funds-sec .form-group .radio-sec {margin: 10px 0 43px; }
+	.add-funds-sec .form-group .custom-control.custom-radio {margin:0 30px 30px 0 !important; }
+
+	/*modal*/
+	.modal .modal-card .mc-body .btns-sec .btn.btnCreategtt{width: 100%;margin: 0 0 20px;}
+	.modal .modal-card .mc-body .btns-sec .btns-right{width: 100%;}
+	.modal .modal-card .mc-body .btns-sec .btns-right .btn{margin: 0;}
+	.modal .modal-card .mc-body .mcbb-bottom .mcb-last .custom-control.custom-checkbox{width: 100%;margin: 10px 0;}
+}
+
+@media (max-width: 375px) {
+  
+}
+
+
+@media (max-width: 320px) {
+  
+  	/*header*/
+  	header.navbar .navbar-nav .navList {margin-left: 10px; }
+	header.navbar .navbar-nav .navList .uImg {margin-right: 0; }
+
+}
